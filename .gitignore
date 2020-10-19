@@ -9,15 +9,15 @@ build
 *.a
 
 # Visual Studio
-*.sln
-*.ncb
-*.vcproj
-*.vcxproj.user
-*.VC.db
-*.VC.db-shm
-*.VC.db-wal
-*.VC.opendb
-*.ipch
+#*.sln
+#*.ncb
+#*.vcproj
+#*.vcxproj.user
+#*.VC.db
+#*.VC.db-shm
+#*.VC.db-wal
+#*.VC.opendb
+#*.ipch
 
 # Output
 bin/
