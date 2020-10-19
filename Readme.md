@@ -9,7 +9,7 @@ There are two paths:
 cmake CMakeLists.txt
 # then open the generated *.sln file in Visual Studio to compile
 
-# path B) for generating for MingW
+# path B) for generating for MingW (run this using GitBash, with PATH setup for your non-VisualStudio install of cmake and your install "MingW C++ GNU compiler", which can be installed via MingW-get)
 cmake -G "CodeBlocks - MinGW Makefiles" CMakeLists.txt
 mingw32-make
 # This also generates a *.cbp file (for CodeBlocks project)
