@@ -1,3 +1,22 @@
+# What is this?
+
+This is a fork of the official Assimp library. I'm just trying to get it to build on Windows 10, specifically using Visual Studio 2019, and also using MingW.
+
+There are two paths:
+
+```
+# path A) for generating visual studio project files (run this using "x86 Native Tools Command Prompt for VS 2019")
+cmake CMakeLists.txt
+# then open the generated *.sln file in Visual Studio to compile
+
+# path B) for generating 
+cmake -G "CodeBlocks - MinGW Makefiles" CMakeLists.txt
+mingw32-make
+# This also generates a *.cbp file (for CodeBlocks project)
+```
+
+
+
 Open Asset Import Library (assimp)
 ==================================
 A library to import and export various 3d-model-formats including scene-post-processing to generate missing render data.
